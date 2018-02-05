@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Author: d4r
 # @Date:   2017-12-30 18:57:32
-# @Last Modified by:   d4r
-# @Last Modified time: 2018-01-04 01:53:47
+# @Last Modified by:   Imam
+# @Last Modified time: 2018-02-06 00:14:07
 import os
 import sys
 import time
@@ -20,11 +20,11 @@ from worker import Worker
 sys.path.append(os.path.join(sys.path[0], 'module/instabot/src'))
 
 from check_status import check_status
-from feed_scanner import feed_scanner
-from follow_protocol import follow_protocol
+# from feed_scanner import feed_scanner
+# from follow_protocol import follow_protocol
 # from instabot import InstaBot
 from instabotalpha import InstabotAlpha
-from unfollow_protocol import unfollow_protocol
+# from unfollow_protocol import unfollow_protocol
 
 print 'try to login as ' + username
 
